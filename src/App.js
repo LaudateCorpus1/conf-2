@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const App = () => {
+const App = () => {
   return (
     <div>
       pagina en construcion
@@ -8,3 +8,4 @@ export const App = () => {
   )
 }
 
+export default App;
