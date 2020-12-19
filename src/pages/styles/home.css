@@ -11,7 +11,6 @@
 }
 
 .content_img {
-	background-color: red;
 	width: 60%;
 	padding: 5px;
 	height: 100%;
@@ -55,4 +54,53 @@
 
 .logo-psd img {
 	width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+	.logo-psd {
+		max-width: 356px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.logo-psd {
+		max-width: 310px;
+	}
+	.logo-lettering {
+		position: absolute;
+		top: 33%;
+		left: 35%;
+	}
+}
+@media only screen and (min-width: 576px) {
+	.content_home-global.mobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.content_home-global.desktop {
+		display: none;
+	}
+
+	.content_img {
+		background-color: none;
+		width: inherit;
+		padding: 0;
+		height: auto;
+		position: relative;
+		background: none;
+		background-size: cover;
+	}
+	.content_img img {
+		width: 100%;
+	}
+	.content_home {
+		position: relative;
+	}
+	.logo-lettering {
+		position: absolute;
+		top: 33%;
+		left: 46%;
+		right: 7%;
+	}
 }

@@ -38,3 +38,19 @@
 	font-size: 30px;
 	margin: 0 5px;
 }
+
+@media only screen and (max-width: 576px) {
+	.content_info {
+		display: initial;
+		text-align: center;
+	}
+	.info,
+	.redes,
+	.explorer {
+		padding-bottom: 12px;
+	}
+	.content_info .title-info {
+		font-weight: 600;
+		padding-bottom: 4px;
+	}
+}

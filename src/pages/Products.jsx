@@ -29,8 +29,30 @@ function Products () {
           <div className="Products_detail">
           <Swiper
             spaceBetween={50}
+            slidesPerView={1}
+            breakpoints={{
+              1228: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+              960: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+              600: {
+                slidesPerView: 2,
+                spaceBetween: 50,
+              },
+              500: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+            }}
             navigation
-            slidesPerView={3}
              loop={true}
             /* autoplay={{ delay: 2500, disableOnInteraction: false }} */
             pagination={{ clickable: true }}
@@ -56,7 +78,7 @@ function Products () {
                               <div className="content-button">
                             <div className="content-bo">
                               <button className="button-whatsapp" type="button">
-                              <a class="btn-whatsapp" href={`https://api.whatsapp.com/send?phone=51950653902&text=${product.mensaje}`} rel="noopener noreferrer" target="_blank">
+                              <a class="btn-whatsapp" href={`https://api.whatsapp.com/send?phone=51990319569&text=${product.mensaje}`} rel="noopener noreferrer" target="_blank">
                                  <i class="fab fa-whatsapp"></i> {product.buttontype}
                                  </a>
                                 </button> 

@@ -25,12 +25,35 @@ function Services () {
           <div className="services_detail">
           <Swiper
             spaceBetween={50}
-            slidesPerView={3}
+            slidesPerView={1}
+            breakpoints={{
+              1228: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+              960: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+              },
+              600: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              500: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+            }}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
           >
           {services.map((service, i) => (
-            <SwiperSlide key={service+i}>
+            <SwiperSlide >
+              <div key={service+i} className="content-all-swiper">
                       <div key={i} className="content-swiper">
                       <div className="content-imagen">
                      
@@ -45,7 +68,7 @@ function Services () {
                           <div className="content-button">
                             <div className="content-bo">
                             <button className="button-whatsapp" type="button">
-                            <a class="btn-whatsapp" href={`https://api.whatsapp.com/send?phone=51950653902&text=${service.mensaje}`} rel="noopener noreferrer" target="_blank">
+                            <a class="btn-whatsapp" href={`https://api.whatsapp.com/send?phone=51990319569&text=${service.mensaje}`} rel="noopener noreferrer" target="_blank">
                                <i class="fab fa-whatsapp"></i> Solicitarlo
                                </a>
                               </button>
@@ -56,6 +79,7 @@ function Services () {
                           </div>
                         </div>
                     </div>
+              </div>
               </SwiperSlide>
                 ))}
           </Swiper>

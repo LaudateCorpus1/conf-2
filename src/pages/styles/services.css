@@ -111,3 +111,17 @@
 }
 
 /* end styles swiper */
+
+@media (max-width: 1228px) {
+	.services_detail {
+		margin: 0 15px;
+	}
+	.breve {
+		max-width: 280px;
+	}
+}
+@media (max-width: 960px) {
+	.content-all-swiper {
+		margin: 0 20px;
+	}
+}
