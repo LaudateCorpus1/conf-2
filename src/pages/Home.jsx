@@ -1,23 +1,24 @@
 import React from 'react'
 import './styles/home.css'
+import logoheader from '../images/logo-header.png'
+import { Link } from '@reach/router'
 
  const Home = () => {
   return (
     <>
       <div className="content_home">
         <div className="content_home-global">
-          <div className="content_img">hola</div>
-          <div className="content_detail">hola</div>
+          <div className="content_img"></div>
+          <div className="content_detail"></div>
           <div className="logo-lettering">
-              <h1 className="logo-content">
-                  Pisces<br/>
-                  & Tonic
-              </h1>
+              <div className="logo-psd">
+              <img src={logoheader} alt=""/>
+              </div>
 
               <div className="read-me">
-              <a href="">
+              <Link to="/conoceme">
               ver más
-                </a>  
+                </Link>  
               </div>
             </div>
         </div>

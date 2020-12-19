@@ -1,0 +1,31 @@
+.content_services {
+	width: 100%;
+}
+
+.content {
+	display: flex;
+	background: red;
+	margin: auto;
+	max-width: 1200px;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.content-imagen {
+	max-width: 300px;
+}
+.content-imagen img {
+	width: 100%;
+}
+
+.content-swiper {
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	background: #f5eaff;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	padding: 25px 14px;
+}

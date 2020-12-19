@@ -1,0 +1,40 @@
+.content_footer {
+	background: #faf4ff;
+	padding: 15px 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	color: #573871;
+}
+
+.content-layout {
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.content_info {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 12px;
+}
+
+.content_info .title-info {
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+.derechos {
+	text-align: center;
+}
+.redes {
+	text-align: center;
+}
+.redes .icon-redes {
+	text-align: center;
+}
+.icon-redes a {
+	font-size: 30px;
+	margin: 0 5px;
+}
