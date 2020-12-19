@@ -1,10 +1,11 @@
 .content_services {
 	width: 100%;
+	font-family: 'Quicksand', sans-serif;
+	padding-bottom: 55px;
 }
 
 .content {
 	display: flex;
-	background: red;
 	margin: auto;
 	max-width: 1200px;
 	flex-direction: column;
@@ -29,3 +30,84 @@
 	align-items: center;
 	padding: 25px 14px;
 }
+
+/* styles swiper */
+
+.title-event p {
+	display: inline-block;
+	font-size: 42px;
+	border-bottom: 2px solid #513b6f;
+	color: #513b6f;
+	margin: 44px 0 32px 0;
+}
+
+.detail-title {
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px 0px 9px;
+	color: #513b6f;
+}
+.detail-price {
+	padding: 5px 0 11px;
+	font-weight: 500;
+}
+
+.breve {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 300px;
+	width: 100%;
+}
+
+.button-whatsapp {
+	font-size: 20px;
+	background-color: #987acd;
+	padding: 8px 17px;
+	border: none;
+	border-radius: 8px;
+	transition: 0.5s;
+}
+.button-whatsapp-disable {
+	font-size: 20px;
+	background-color: #a9a9a9;
+	color: white;
+	padding: 8px 17px;
+	border: none;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+.button-whatsapp a {
+	text-decoration: none;
+	color: white;
+}
+
+.button-whatsapp:hover {
+	background-color: #5c3e8f;
+}
+.button-whatsapp:hover a {
+	color: white;
+}
+
+.content-button {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 14px;
+	padding-top: 12px;
+}
+.content-button-disable {
+	display: flex;
+	justify-content: center;
+	padding: 0 14px;
+	padding-top: 12px;
+}
+
+.detail-ver {
+	color: #513b6f;
+	font-weight: 500;
+	border-bottom: 1px solid #513b6f;
+	margin-bottom: 1px;
+}
+
+/* end styles swiper */

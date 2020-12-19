@@ -19,17 +19,18 @@ const NavBar = () => {
     <div>
      <div className="content_navbar">
        <div className="content-nav">
-       <div className="menu" onClick={toggleMenu}>
+       <div className="logo">
+                <LinkRouter to="/"><img src={logoAle} alt=""/></LinkRouter>
+            </div>
+          <div className="menu" onClick={toggleMenu}>
             <img src={Menu} alt="" width="30" />
             </div>
 
-            <div className="logo">
-                <LinkRouter to="/"><img src={logoAle} alt=""/></LinkRouter>
-            </div>
+            
             <ul style={styleMenu}>
-                <li className="navLink"><LinkRouter to="/">Inico</LinkRouter></li>
+                <li onClick={toggleMenu} className="navLink"><LinkRouter to="/">Inico</LinkRouter></li>
                 <li className="navLink"><LinkRouter to="/conoceme">Conoceme</LinkRouter></li>
-                <li className="navLink"><LinkRouter to="/servicios">Servicios</LinkRouter></li>
+                <li onClick={toggleMenu} className="navLink"><LinkRouter to="/servicios">Servicios</LinkRouter></li>
                 <li className="navLink"><LinkRouter to="/contacto">Contact</LinkRouter></li>
                 <li onClick={toggleMenu}>
                     <img src={Close} alt="" width="30" className="menu" />

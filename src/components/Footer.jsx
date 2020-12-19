@@ -20,8 +20,8 @@ import './styles/footer.css'
          <div className="redes">
             <p className="title-info">Sigueme:</p>
             <div className="icon-redes">
-              <a href="www.faceo.com"><i class="fab fa-facebook-square"></i></a>
-              <a href="www.faceo.com"><i class="fab fa-instagram"></i></a>
+              <a href="www.faceo.com"><i className="fab fa-facebook-square"></i></a>
+              <a href="www.faceo.com"><i className="fab fa-instagram"></i></a>
 
             </div>
          </div>
