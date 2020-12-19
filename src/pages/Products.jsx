@@ -52,11 +52,11 @@ function Products () {
                 spaceBetween: 20,
               },
             }}
-            navigation
+           /*  navigation */
              loop={true}
             /* autoplay={{ delay: 2500, disableOnInteraction: false }} */
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
+            /* pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }} */
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
           >

@@ -12,7 +12,8 @@ body {
 }
 
 [tabindex] {
-	margin: auto;
+	display: flex;
+	width: 100%;
 }
 
 .swiper-button-prev:after,
@@ -25,7 +26,7 @@ body {
 	font-variant: initial;
 	line-height: 1;
 	background: #987acd;
-	padding: 24% 50%;
+	padding: 24px 50px;
 	color: #fdfdfd;
 	font-size: 35px;
 }
