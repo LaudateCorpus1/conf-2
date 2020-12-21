@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles/footer.css'
-
+import { Link } from "react-router-dom";
  const Footer = () => {
   return (
     <>
@@ -27,15 +27,22 @@ import './styles/footer.css'
          </div>
          <div className="explorer">
            <p className="title-info">Destacados</p>
-           <div className="">
-             <p>Conoceme</p>
-             <p>servicios</p>
+           <div className="link-footer">
+            <Link className="footerLink" to="/conoceme"><p>Conoceme</p></Link> 
+            <Link className="footerLink" to="/servicios"><p>servicios</p></Link> 
+             
            </div>
          </div>
        </div>
-       <div className="derechos">
+       <div className="derechos desktop">
          <p>© Copyright Pisces & Tonic 2020 -Todos los derechos reservados</p>
          <p>Diseñado y desarrollado por Leonardo Ramos</p>
+       </div>
+       <div className="derechos mobile">
+         <p>© Copyright Pisces & Tonic 2020
+           <br/>
+           Todos los derechos reservados</p>
+         <p className="diseño">Diseñado y desarrollado por Leonardo Ramos</p>
        </div>
        </div>
      </div>

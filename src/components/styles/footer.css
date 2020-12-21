@@ -39,6 +39,17 @@
 	margin: 0 5px;
 }
 
+.footerLink {
+	color: #57387e;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+@media only screen and (min-width: 576px) {
+	.derechos.mobile {
+		display: none;
+	}
+}
 @media only screen and (max-width: 576px) {
 	.content_info {
 		display: initial;
@@ -52,5 +63,12 @@
 	.content_info .title-info {
 		font-weight: 600;
 		padding-bottom: 4px;
+	}
+	.derechos.desktop {
+		display: none;
+	}
+
+	.diseño {
+		padding-top: 10px;
 	}
 }

@@ -77,6 +77,10 @@
 	padding-left: 37px;
 }
 
+.information-list {
+	padding: 0 27px;
+}
+
 .information-list .lista li {
 	list-style: inherit;
 	display: list-item;
@@ -296,7 +300,8 @@
 	.header-service-2,
 	.header-service-3,
 	.header-service,
-	.header-product-1 {
+	.header-product-1,
+	.header-contact-1 {
 		height: 80px;
 	}
 	.content-title {

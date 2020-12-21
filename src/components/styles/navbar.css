@@ -25,7 +25,7 @@ a {
 a:hover {
 	color: #573871;
 }
-ul li {
+.content-nav ul li {
 	list-style: none;
 	display: inline-block;
 	padding: 0 15px;
@@ -63,7 +63,7 @@ a.current {
 	header {
 		justify-content: space-between;
 	}
-	ul {
+	.content-nav ul {
 		position: fixed;
 		top: 0;
 		left: -100%;
