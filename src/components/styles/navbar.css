@@ -49,7 +49,11 @@ ul li {
 	padding: 5px;
 }
 
-.navLink [aria-current] {
+.navevent a {
+	font-size: 22px;
+}
+
+a.current {
 	padding-bottom: 4px;
 	border-bottom: 1px solid #573871;
 	color: #573871;
@@ -85,7 +89,7 @@ ul li {
 		right: 20px;
 	}
 
-	.navLink [aria-current] {
+	a.current {
 		padding-bottom: 4px;
 		border-bottom: 1px solid #573871;
 		color: white;

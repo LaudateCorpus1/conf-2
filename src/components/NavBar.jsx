@@ -1,5 +1,5 @@
 import React,{ useState} from 'react'
-import { Link as LinkRouter } from "@reach/router";
+import { NavLink } from "react-router-dom";
 import Menu from '../images/bars-solid.svg'
 import Close from '../images/times-solid.svg'
 import logoAle from '../images/logo.png'
@@ -20,7 +20,7 @@ const NavBar = () => {
      <div className="content_navbar">
        <div className="content-nav">
        <div className="logo">
-                <LinkRouter to="/"><img src={logoAle} alt=""/></LinkRouter>
+                <NavLink  to="/"><img src={logoAle} alt=""/></NavLink>
             </div>
           <div className="menu" onClick={toggleMenu}>
             <img src={Menu} alt="" width="30" />
@@ -28,10 +28,10 @@ const NavBar = () => {
 
             
             <ul style={styleMenu}>
-                <li onClick={toggleMenu} className="navLink"><LinkRouter to="/">Inico</LinkRouter></li>
-                <li className="navLink"><LinkRouter to="/conoceme">Conoceme</LinkRouter></li>
-                <li onClick={toggleMenu} className="navLink"><LinkRouter to="/servicios">Servicios</LinkRouter></li>
-                <li className="navLink"><LinkRouter to="/contacto">Contact</LinkRouter></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/" exact>Inico</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/conoceme" exact>Conoceme</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/servicios" exact>Servicios</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/contacto" exact>Contacto</NavLink></li>
                 <li onClick={toggleMenu}>
                     <img src={Close} alt="" width="30" className="menu" />
                 </li>

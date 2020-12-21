@@ -48,6 +48,11 @@
 	font-size: 25px;
 }
 
+.read-me a {
+	border-bottom: 1px solid #573871;
+	color: #573871;
+}
+
 .logo-psd {
 	max-width: 445px;
 }
@@ -56,6 +61,14 @@
 	width: 100%;
 }
 
+@media only screen and (max-width: 1400px) {
+	.logo-lettering {
+		top: 20%;
+	}
+	.logo-psd {
+		max-width: 405px;
+	}
+}
 @media only screen and (max-width: 960px) {
 	.logo-psd {
 		max-width: 356px;
@@ -69,6 +82,9 @@
 		position: absolute;
 		top: 33%;
 		left: 35%;
+	}
+	.read-me a {
+		margin-right: 20%;
 	}
 }
 @media only screen and (min-width: 576px) {

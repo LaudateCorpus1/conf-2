@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles/home.css'
 import logoheader from '../images/logo-header.png'
-import { Link } from '@reach/router'
+import { Link } from 'react-router-dom'
 import BackMobile from '../images/back-mobile.jpg'
 
  const Home = () => {

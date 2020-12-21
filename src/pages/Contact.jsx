@@ -1,11 +1,28 @@
-import React from 'react'
+import React from 'react';
+import Form from '../components/forms/Form'
+import './styles/contact.css'
+import '../pages/products/styles/styleSerOne.css'
+export default function Contact() {
 
-const Contact = () => {
+
+
   return (
-    <div>
-      contantos
-    </div>
-  )
-}
+    <div className="content_service-detail">
+    <div className="header-contact-1">
+          <div className="header-content">
+            <div className="overlay">
+                <div className="content-title">
+                    <p>
+                      Contacto
+                    </p>
+                </div>
+              </div>
+          </div>
+        </div>
+    <div className="contact-content">
 
-export default Contact;
+    <Form/>
+    </div>
+    </div>
+  );
+}
