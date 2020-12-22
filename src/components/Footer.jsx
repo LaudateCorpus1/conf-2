@@ -36,7 +36,11 @@ import { Link } from "react-router-dom";
        </div>
        <div className="derechos desktop">
          <p>© Copyright Pisces & Tonic 2020 -Todos los derechos reservados</p>
-         <p>Diseñado y desarrollado por Leonardo Ramos</p>
+         <p className="diseño">Diseñado y desarrollado por 
+         <a href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer">
+         Leonardo Ramos
+           </a> 
+           </p>
        </div>
        <div className="derechos mobile">
          <p>© Copyright Pisces & Tonic 2020
