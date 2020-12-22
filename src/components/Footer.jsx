@@ -12,16 +12,16 @@ import { Link } from "react-router-dom";
          <div className="info">
            <p className="title-info">Contactame</p>
            <div className="">
-            <p>Teléfono: +51(1) 456 1555</p>
-            <p>correo: pisces@pisces.com</p>
-            <p>direcion: pisces@pisces.com</p>
+            <p>Teléfono: +51 990319569</p>
+            <p>correo: alexia@piscesntonic.com</p>
+            <p>direcion: Trujillo - Perú</p>
            </div>
          </div>
          <div className="redes">
             <p className="title-info">Sigueme:</p>
             <div className="icon-redes">
-              <a href="www.faceo.com"><i className="fab fa-facebook-square"></i></a>
-              <a href="www.faceo.com"><i className="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/piscesntonic" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/piscesntonic/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
 
             </div>
          </div>
@@ -42,7 +42,11 @@ import { Link } from "react-router-dom";
          <p>© Copyright Pisces & Tonic 2020
            <br/>
            Todos los derechos reservados</p>
-         <p className="diseño">Diseñado y desarrollado por Leonardo Ramos</p>
+         <p className="diseño">Diseñado y desarrollado por 
+         <a href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer">
+         Leonardo Ramos
+           </a> 
+           </p>
        </div>
        </div>
      </div>
