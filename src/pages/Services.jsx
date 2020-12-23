@@ -98,7 +98,7 @@ function Services () {
                                 </div>
 
                                 : 
-                                <div className="content-button-disable">
+                                <div className="content-button-disable-service">
                                   <div className="button-whatsapp-disable">{service.buttontype}</div>
                                 </div>
                                 
