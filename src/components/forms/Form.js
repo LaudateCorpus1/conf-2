@@ -16,9 +16,9 @@ const Form = () => {
         
         
         {!isSubmitted ? (
-          <FormSignup submitForm={submitForm} />
-        ) : (
           <FormSuccess />
+        ) : (
+          <FormSignup submitForm={submitForm} />
         )}
         <div className='form-content-left'>
           Escríbeme por Whatsapp:

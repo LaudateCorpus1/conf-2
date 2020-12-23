@@ -48,6 +48,10 @@
 .form-content-right {
 	border-radius: 0 10px 10px 0;
 	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #573883;
 }
 
 .form-content-right-success {
@@ -78,7 +82,7 @@
 h1.form-success {
 	text-align: center;
 	font-size: 24px;
-	color: #7d1ef8;
+	color: #573883;
 }
 
 .form-inputs {
