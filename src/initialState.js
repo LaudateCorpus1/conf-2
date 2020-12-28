@@ -100,7 +100,7 @@ export default {
       'name':'Sales de magia e intuición',
       'image': 'https://apiweb.netlify.app/images/ser7-2.jpg',
       'price':'S/. 30.00',
-      'contenido':'212 ml',
+      'contenido':'212 gr',
       'payment':'paypal o transferencia',
       'breve': 'o',
       'buttontype':'Reservar',
