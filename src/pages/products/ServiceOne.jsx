@@ -32,21 +32,23 @@ const ServiceOne = () => {
           <div className="content-service">
           <div className="info-parrafo">
               <p className="information">
-              El tarot es una  de las mancias mas antiguas del mundo, pero no solo es eso, tambien es una herramienta terapéutica  muy profunda que nos ayuda a reflexionar sobre nuestra propia realidad. 
+              El tarot es una de las mancias más antiguas del mundo. Pero no solo es eso, también es una herramienta terapéutica muy profunda que nos ayuda a reflexionar sobre nuestra propia realidad.  
               <br/><br/>
-              El tarot evolutivo no es para predecir el futuro, es una herramienta que nos permite volvernos conscientes e iluminar nuestros caminos.
+              El tarot evolutivo no es simplemente para predecir el futuro, es una herramienta que nos permite hacernos conscientes e iluminar nuestro camino.
               <br/><br/>
-              En el tarot evolutivo o psicotarot no te predisponemos al futuro, soy consciente de que tu eres el unico creador de tu destino y que todo esta en tus manos. 
+              En el tarot evolutivo o psicotarot no te predisponemos al futuro. Soy consciente de que tú eres el único creador de tu destino y que todo está en tus manos, yo solo soy una guía. 
               <br/><br/>
-              En la sesion podras conectarte contigo mismo (a) entendiendo las situaciones desde una perspectiva distinta. El universo te guiara a traves de esta herramienta tan valiosa. 
+              En la sesión podrás conectarte contigo mismo(a) entendiendo las situaciones desde una perspectiva externa. El universo te guiara a través de esta herramient tan valiosa. 
               <br/><br/>
-             <b> Las lecturas disponibles son: </b>
+             Las lecturas disponibles son:
               <br/>
-              Preguntas especificas. Se abre una tirada para analizar cada pregunta sobre los temas que mas te causen inquietud y asi poder darte la respuesta que necesitas para elegir el camino correcto.
-              <br/><br/>
-              <b>Lectura anual: </b>
+             <b> Preguntas especificas </b>
               <br/>
-              Se abre una tirada donde podremos obtener información concreta sobre hechos en el año siguiente desde el mes de la sesión. 
+              Se abre una tirada para analizar cada pregunta sobre los temas que más te causen inquietud y así poder darte la respuesta que necesitas para elegir el camino correcto.
+              <br/><br/>
+              <b>Lectura anual</b>
+              <br/>
+              Se abre una tirada donde podremos obtener información concreta sobre hechos específicos en el año siguiente desde el mes de la sesión.  
               </p>
               <div className="content-payment">
                 <div className="content-pay">

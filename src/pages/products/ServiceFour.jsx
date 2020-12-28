@@ -29,19 +29,19 @@ const ServiceThree= () => {
           <div className="content-service">
             <div className="info-parrafo">
             <p className="information">
-              Contamos con dos tipos de escencias florales. Estan desarrolladas para ayudarnos a sanar desde el alma y no desde el cuerpo fisico.
+            Contamos con dos tipos de esencias florales. Están desarrolladas para ayudarnos a sanar desde el alma y no desde el cuerpo físico.
               <br/><br/>
-              Estos remedios naturales nos da cada gota de amor, armonia y tranquilidad que nos brindan estas flores magicas sanadoras.
+              Estos remedios naturales nos dan cada gota de amor, armonía y tranquilidad que nos brindan estas flores mágicas sanadoras.
               </p>
               <div className="content-product">
               <div className="lista-tres">
               <div className="img-product">
                 <img src={productEnable[0].image} alt=""/>
               </div>
-              <div className="info-product">
+              <div className="info-product-withoutScroll">
                <b> {productEnable[0].name}  </b>
               <br/><br/>
-              Son escencias extraidas de la naturaleza que ayudan a tratar distintos tipos de situaciones emcionales, como; depresion, angustia, estres, miedos, obsesiones, soledad, etc.
+              Son esencias extraídas de la naturaleza que ayudan a tratar distintos tipos de situaciones emocionales, como; depresión, angustia, estrés, miedos, obsesiones, soledad, etc.
 
               </div>
                 
@@ -102,13 +102,13 @@ const ServiceThree= () => {
               <div className="info-product">
                <b>{productEnable[1].name} </b>
               <br/><br/>
-              Estas escencias nos permiten elevar nuestra vibracion, restablecer nuestro cuerpo fisico y emocional. Nos ayuda a seguir el camino evolutivo espiritual y tener mayor contacto con nuestra alma desde el amor y la gratitud. 
+              Estas esencias nos permiten elevar nuestra vibración, restablecer nuestro cuerpo físico y emocional. Nos ayuda a seguir el camino evolutivo espiritual y tener mayor contacto con nuestra alma desde el amor y la gratitud. 
             <br/><br/>
-            Es un sistema de sanacion de luz, complementan terapias y nos ayudan a mantenernos alineados.
+            Es un sistema de sanación de luz, complementan terapias y nos ayudan a mantenernos alineados.
             <br/><br/>
-            Elaboradas desde lo mas sagrado de la madre naturaleza, son elaboradas bajo un sistema artesanal.
+            Elaboradas desde lo más sagrado de la madre naturaleza, son elaboradas bajo un sistema artesanal.
             <br/><br/>
-            Prepara nuestro cuerpo de luz para recibir la luz de dimensiones superiores, promueve nuestra conexión espiritual y estimula los sueños. Se utiliza como acompañamiento a terapias holisticas y tambien en caso de traumas, insomnio cronico, accidentes o cualquier tipo de desconexión espiritual.
+            Prepara nuestro cuerpo de luz para recibir la luz de dimensiones superiores, promueve nuestra conexión espiritual y estimula los sueños. Se utiliza como acompañamiento a terapias holísticas y también en caso de traumas, insomnio crónico, accidentes o cualquier tipo de desconexión espiritual.
               </div>
                 
               </div>

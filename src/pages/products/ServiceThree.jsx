@@ -29,9 +29,9 @@ const ServiceThree= () => {
           <div className="content-service">
           <div className="info-parrafo">
               <p className="information">
-              El psicomatrix es un sistema de numerologia creada por sacerdotes egipcios y seguido por pitagoras quien expandio y exploto estos conocimientos para ayudar a descubrir el objetivo de vida de una persona. 
+              El psicomatrix es un sistema de numerología creado por sacerdotes egipcios y seguido por Pitágoras quien expandió y exploto estos conocimientos para ayudar a descubrir el propósito de vida de una persona. 
               <br/><br/>
-              El psicomatrix sirve como herramienta de autoconocimiento, ademas de ayudarnos a mantener un equilibrio.
+              El psicomatrix sirve como herramienta de autoconocimiento, además de ayudarnos a mantener un equilibrio.
               <br/><br/>
               Dentro de la consulta se puede analizar:
               <br/>
@@ -51,7 +51,7 @@ const ServiceThree= () => {
                 <li>Caracter</li>
                 <li>Salud</li>
                 <li>Memoria</li>
-                <li>Intuicion</li>
+                <li>Intuición</li>
                 <li>Estabilidad de nucleos ( familia e hijos) </li>
                 <li>Estabilidad emocional </li>
                 <li>Estabilidad financiera</li>

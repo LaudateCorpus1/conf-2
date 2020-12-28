@@ -228,11 +228,17 @@
 	height: 280px;
 }
 
+.info-product-withoutScroll {
+	text-align: left;
+	font-weight: 100;
+	color: #674c96;
+	padding: 0px 27px;
+}
+
 ::-webkit-scrollbar {
-	width: 20px;
+	width: 16px;
 }
 ::-webkit-scrollbar-track {
-	width: 25px;
 	background: #987acd1f;
 }
 

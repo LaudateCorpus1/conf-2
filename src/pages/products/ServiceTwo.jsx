@@ -31,24 +31,25 @@ const ServiceTwo= () => {
               <p className="information">
              <b>Carta natal y tránsitos:</b>  
               <br/>
-                Es como una foto que se tomo al cielo en el momento exacto de tu nacimiento. Esta es la primera carta a la cual debemos consultar. Es una herramienta de autoconocimiento infinita, nos permite concocer que energias nos componen, cual es nuestro proposito de vida, que eventos sucedieron a lo largo de nuestra vida  y el porque.
-                Es un lenguaje simbolico el cual nos permite leer nuestra relacion con los planetas y como estos guian a través de la vida.
+              Es como una foto que se tomó al cielo en el momento exacto de tu nacimiento. Esta es la primera carta a la cual debemos consultar. Es una herramienta de autoconocimiento infinita, nos permite conocer que energías nos componen, cual es nuestro propósito de vida, que eventos sucedieron a lo largo de nuestra vida, por qué y más.
+              <br/><br/>
+              La astrología es un lenguaje simbólico sagrado el cual nos permite interpretar nuestra relación con los planetas y como estos guían a través de la vida.
                 <br/> <br/>
                <b>Sinastria:</b> 
                 <br/>
-                Esta carta  es una comparacion entre dos cartas natales, para asi poder identificar fortalezas y debilidades en una relacion. Nos permite tener una mejor comprension de las relaciones con ayuda de los planetas.
+                Esta carta es una comparación entre dos cartas natales, para así poder identificar fortalezas y debilidades en una relación. Nos permite tener una mejor comprensión de las relaciones con ayuda de los planetas.
                 <br/> <br/>
                <b>Carta compuesta: </b> 
                 <br/>
-                La carta compuesta es el punto medio entre dos cartas natales, representa la relacion en su máximo entendimiento. Se crea una tercera carta combinando las energias de dos personas, para asi poder entender el proposito y lo que esta relacion aporta para ambas partes.
+                La carta compuesta es el punto medio entre dos cartas natales, representa la relación en su máximo entendimiento. Se crea una tercera carta combinando las energías de dos personas. Así podemos entender el propósito y lo que esta relación aporta para ambas partes.
                 <br/> <br/>
 
                <b>Revolución solar y lunar:</b> 
                 <br/>
-                La revolucion solar es una lectura de la carta en el momento exacto del retorno de nuestro sol natal. Es cuando se interpreta que nos trae el nuevo periodo solar, para esto se recomienda hacer la consulta cerca de la fecha de cumpleaños, nos brinda una guia para aprovechar el nuevo año solar de vida.
+                La revolución solar es una lectura de carta en el momento exacto del retorno de nuestro Sol natal. Es cuando se interpreta que nos trae el nuevo periodo solar. Para esto se recomienda hacer la consulta cerca de la fecha de cumpleaños. La lectura nos brinda una guía para aprovechar el nuevo año solar de vida.
                 <br/> <br/>
 
-                La revolución lunar es una lectura de la carta en el momento del retorno de nuestra luna natal. Se puede decir que es la energía del mes que nos tocara vivir. Esta lectura se puede hacer en cualquier momento, ya que se toma la energía del mes lunar. 
+                La revolución lunar es una lectura de la carta en el momento del retorno de nuestra Luna natal. Se puede decir que es la energía del mes que nos tocará vivir. Esta lectura se puede hacer en cualquier momento ya que se toma la energía del mes lunar. 
                 <br/> <br/>
                <b>*Depende de ti si deseas usar sistema sideral o tropical para tu consulta.</b>
                 <br/>
