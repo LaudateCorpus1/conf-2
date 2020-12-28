@@ -95,5 +95,18 @@ export default {
       'tipo':'producto',
       'mensaje':'Hola%20quiero%20reservar%20el%20producto%20Chakras%20sananda%2C%20por%20favor%20brindame%20el%20medio%20de%20pago.'
     },
+    {
+      'id':3,
+      'name':'Sales de magia e intuición',
+      'image': 'https://apiweb.netlify.app/images/ser7-2.jpg',
+      'price':'S/. 30.00',
+      'contenido':'212 ml',
+      'payment':'paypal o transferencia',
+      'breve': 'o',
+      'buttontype':'Reservar',
+      'details':'sales-de-magia-e-intuición',
+      'tipo':'producto',
+      'mensaje':'Hola%20quiero%20reservar%20el%20producto%20Sales%20de%20magia%20e%20intuici%C3%B3n%2C%20por%20favor%20brindame%20el%20medio%20de%20pago.'
+    },
   ]
 };

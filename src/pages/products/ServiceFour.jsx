@@ -34,7 +34,6 @@ const ServiceThree= () => {
               Estos remedios naturales nos da cada gota de amor, armonia y tranquilidad que nos brindan estas flores magicas sanadoras.
               </p>
               <div className="content-product">
-             
               <div className="lista-tres">
               <div className="img-product">
                 <img src={productEnable[0].image} alt=""/>
@@ -152,6 +151,99 @@ const ServiceThree= () => {
                 <a className="btn-whatsapp" href={`https://api.whatsapp.com/send?phone=51990319569&text=${productEnable[1].mensaje}`} rel="noopener noreferrer" target="_blank">
                     <button type="button">
                     <i className="fab fa-whatsapp"></i> {productEnable[1].buttontype}
+                    </button>
+                    </a>
+                </div>
+                  </div>
+                </div>
+
+
+              </div>
+              </div>
+              <div className="content-product">
+              <div className="lista-tres">
+              <div className="img-product">
+                <img src={productEnable[2].image} alt=""/>
+              </div>
+              <div className="info-product">
+               <b>{productEnable[2].name} </b>
+                    <br/><br/>
+                    Todas nuestras sales energéticas están hechas a base de sal marina. Estas sales fomentan la transmutación energética y vibracional.
+                    <br/><br/>
+                    Al unir la sal con plantas mágicas tenemos una fuente de energía de alta vibración. Estas sales las puedes usar al momento de tomar un baño, para rituales y también para limpiar herramientas que tengan alta carga energética (cuarzos, talismanes, amuletos, etc.)
+                    <br/><br/>
+                    Al usarlas logramos armonizar nuestro campo energético y atraer altas vibraciones.
+                    <br/><br/>
+                    Después de usarlas te aseguro que sentirás un cambio en tu estado de ánimo, mejora la calidad del sueño y reduce el estrés.
+                    <br/><br/>
+                    Al realizar estos baños no sólo se siente fantástico, las propiedades terapéuticas que se encuentran en la sal del mar y estas plantas mágicas medicinales logran un cambio notorio en nuestro campo vibracional.
+                    <br/><br/>
+                    <b>Asha: </b>
+                    <br/>
+                    Lavanda, Jazmín, Ruda y Gardenia.
+                    <br/>
+                    El mejor momento para aprovechar estas sales son: luna menguante y luna nueva.
+                    <br/><br/>
+                    <b>Mahi:</b>
+                    <br/>
+                    Mirra, Rosa, Canela y Flor de Cerezo.
+                    <br/>
+                    El mejor momento para aprovechar estas sales son: luna creciente, luna nueva y luna llena.
+                    <br/><br/>
+                    <b>Sashi:</b>
+                    <br/>
+                    Salvia, Almizcle, Copal y Bergamota.
+                    <br/>
+                    El mejor momento para aprovechar estas sales son: luna menguante y luna llena.
+                    <br/> <br/>
+                    <b>Tiaré:</b>
+                    <br/>
+                    Romero, Manzanilla, Verbena y Vainilla.
+                    <br/>
+                    El mejor momento para aprovechar estas sales son: luna menguante y luna creciente.
+
+              </div>
+                
+              </div>
+              <div className="content-payment">
+                <div className="content-pay">
+                  <div className="columnOne">
+                    <div className="name-column">
+                     
+                      <p>Contenido: </p>
+                    </div>
+                    <div className="icon-column">
+                     
+                      <p>{productEnable[2].contenido} </p>
+                    </div>
+                  </div>
+                  <div className="columnOne">
+                      <div className="name-column">
+                    
+                      <p>Precio: </p>
+                    </div>
+                    <div className="icon-column">
+                      
+                      <p>{productEnable[2].price}</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-pay">
+                  <div className="columnTwo">
+                  <div className="name-column">
+                    <p><i className="">&nbsp;</i></p>
+                    <p>Medio de pago: </p>
+                    </div>
+                    <div className="icon-column">
+                      <p className="i-pago"><i className="fab fa-cc-paypal"></i><i className="fas fa-random"></i></p>
+                      <p className="pago">Paypal o Transferencia</p>
+                    </div>
+                  </div>
+                  <div className="columnTwo">
+                  <div className="sale-button-product">
+                <a className="btn-whatsapp" href={`https://api.whatsapp.com/send?phone=51990319569&text=${productEnable[2].mensaje}`} rel="noopener noreferrer" target="_blank">
+                    <button type="button">
+                    <i className="fab fa-whatsapp"></i> {productEnable[2].buttontype}
                     </button>
                     </a>
                 </div>
