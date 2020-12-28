@@ -1,13 +1,16 @@
 .content_home {
 	height: 100%;
 	display: flex;
-	position: absolute;
+	/* position: absolute; */
 	width: 100%;
+	flex-direction: column;
 }
 
 .content_home-global {
 	display: flex;
 	width: 100%;
+	height: 80vh;
+	position: relative;
 }
 
 .content_img {
@@ -86,6 +89,10 @@
 	.read-me a {
 		margin-right: 20%;
 	}
+
+	.details_info-test p {
+		font-size: 14px;
+	}
 }
 @media only screen and (min-width: 576px) {
 	.content_home-global.mobile {
@@ -96,6 +103,10 @@
 @media only screen and (max-width: 576px) {
 	.content_home-global.desktop {
 		display: none;
+	}
+
+	.content_home-global {
+		height: auto;
 	}
 
 	.content_img {

@@ -3,10 +3,12 @@ import './styles/home.css'
 import logoheader from '../images/logo-header.png'
 import { Link } from 'react-router-dom'
 import BackMobile from '../images/back-mobile.jpg'
+import Testimonials from '../components/Testimonials'
 
  const Home = () => {
   return (
     <>
+
       <div className="content_home">
         <div className="content_home-global desktop">
           <div className="content_img"></div>
@@ -23,6 +25,9 @@ import BackMobile from '../images/back-mobile.jpg'
               </div>
             </div>
         </div>
+        
+      
+        
         <div className="content_home-global mobile">
           <div className="content_img">
             <img src={BackMobile} alt=""/>
@@ -39,8 +44,12 @@ import BackMobile from '../images/back-mobile.jpg'
               </div>
             </div>
         </div>
+        <div className="testimonios">
+        <Testimonials/>
+        </div>
       </div>
-
+      
+     
     </>
   )
 }

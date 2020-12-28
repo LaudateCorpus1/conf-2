@@ -16,8 +16,8 @@ body {
 	width: 100%;
 } */
 
-.swiper-button-prev:after,
-.swiper-button-next:after {
+.services_detail .swiper-button-prev:after,
+.services_detail .swiper-button-next:after {
 	font-family: swiper-icons;
 	font-size: var(--swiper-navigation-size);
 	text-transform: none !important;

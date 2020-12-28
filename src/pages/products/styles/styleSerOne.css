@@ -209,6 +209,13 @@
 	margin-top: 30px;
 }
 
+.img-product {
+	max-width: 200px;
+}
+.img-product .swiper-container {
+	padding-bottom: 32px;
+}
+
 .img-product img {
 	width: 200px;
 }
@@ -275,6 +282,9 @@
 }
 
 @media only screen and (max-width: 586px) {
+	.img-product {
+		max-width: initial;
+	}
 	.content-pay {
 		display: initial;
 		border-left: none;

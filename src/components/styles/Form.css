@@ -106,6 +106,7 @@ h1.form-success {
 .form-input.textarea {
 	height: 155px;
 	/* border: none; */
+	font-family: 'Quicksand', sans-serif;
 }
 
 .form-input {

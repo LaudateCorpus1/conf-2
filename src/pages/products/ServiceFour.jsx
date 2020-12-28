@@ -1,8 +1,9 @@
 import React, { useContext }from 'react'
 import  AppContext   from '../../context/AppContext';
 import './styles/styleSerOne.css'
-import imgDetail1 from "../../images/detalle-ser-3.jpg";
-import imgDetail2 from "../../images/detalle-ser-3-2.jpg";
+import imgDetail1 from "../../images/detalle-ser-4.jpg";
+import imgDetail2 from "../../images/detalle-ser-4-2.jpg";
+import Photos from '../../components/Photos';
 
 const ServiceThree= () => {
   const {state} = useContext(AppContext)
@@ -97,7 +98,7 @@ const ServiceThree= () => {
               <div className="content-product">
               <div className="lista-tres">
               <div className="img-product">
-                <img src={productEnable[1].image} alt=""/>
+                <Photos/>
               </div>
               <div className="info-product">
                <b>{productEnable[1].name} </b>
