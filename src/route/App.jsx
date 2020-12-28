@@ -14,12 +14,14 @@ import ServiceTwo from '../pages/products/ServiceTwo'
 import ServiceThree from '../pages/products/ServiceThree'
 import ServiceFour from '../pages/products/ServiceFour'
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import ScrollTop from '../components/ScrollTop';
 
 function App ()  {
   const initialState = useInitialState()
 
   return (
     <BrowserRouter>
+      <ScrollTop/>
       <AppContext.Provider value={initialState}>
           <Layout>
           <Switch>
