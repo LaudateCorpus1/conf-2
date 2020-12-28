@@ -10,9 +10,6 @@ const ServiceOne = () => {
   const { services } = state;
 
 
-  console.log(services)
-
-
   return (
     <>
       <div className="content_service-detail">

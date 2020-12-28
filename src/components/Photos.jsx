@@ -20,8 +20,8 @@ const Photos = () => {
       autoplay={{ delay: 2500, disableOnInteraction: false }}
       loop={true}
       pagination={{ clickable: true }}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+     /*  onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)} */
     >
       <SwiperSlide>
       

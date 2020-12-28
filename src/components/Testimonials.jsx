@@ -24,8 +24,8 @@ const Testimonials = () => {
       autoplay={{ delay: 2500, disableOnInteraction: false }}
       loop={true}
       navigation
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+     /*  onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)} */
     >
       <SwiperSlide>
         <div className="content-detail-test">

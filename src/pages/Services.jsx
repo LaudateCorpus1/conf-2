@@ -63,8 +63,8 @@ function Services () {
                 spaceBetween: 0,
               },
             }}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
+            /* onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)} */
           >
           {services.map((service, i) => (
             <SwiperSlide key={service+i}>
