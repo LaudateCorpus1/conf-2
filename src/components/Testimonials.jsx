@@ -36,7 +36,7 @@ const Testimonials = () => {
             <p>
             “Conocí el horóscopo de muy pequeña. Mi alma pisciana me ha hecho siempre buscar señales, respuestas del mundo. Y en Piscesntonic encontré el camino. Agradezco al universo por sus místicas y a Piscesntonic por siempre mostrarme el camino real. La leída de mi carta astral me ha ayudado en caer en cuenta de dónde vengo, quién soy y a donde voy. Algo que todos deberíamos obtener y más si viene de una fuente confiable. La mía Piscesntonic.”
             <br/><br/>
-            Lorena Martinez
+            k.M.
             </p>
           </div>
         </div>
@@ -50,7 +50,7 @@ const Testimonials = () => {
             <p>
             “Obtener algún indicio para entender lo que pasa se ha vuelto clave para mí y conocerme. Las lecturas de tarot evolutivo con Piscesntonic son perfectas para conocer lo que me pasa, así me ayuda a caminar con cautela. Agradezco tener a la mano esta consulta tarotista siempre, Piscesntonic me ha guiado con todas sus proyecciones e interpretaciones y lo sigue haciendo.”
             <br/><br/>
-            Nicolleta Sanchez
+            S.C.
             </p>
           </div>
         </div>
