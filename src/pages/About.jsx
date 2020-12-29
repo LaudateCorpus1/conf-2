@@ -19,9 +19,10 @@ import alexiaMobile from './../images/about-mobile.png'
           <div className="content_detail-about">
             <div className="info-autor">
               <p>
-              Mi nombre es <i>Alexia Fernandez</i>  soy <b>astrologa</b>, <b>terapeuta holistica</b> y <b>canalizadora</b>. Estoy aqui para ayudarte y acompañarte en tu camino por esta tierra. 
-              <br/><br/>
-            Los sucesos que vivi a lo largo de mi vida  me permitieron expandir mi consciencia y darme cuenta que somos mas que materia, mas que un cuerpo fisico, somos un ser completo en toda la dimensión. Somos parte de un infinito y ese infinito vive en el interior de cada uno de nosotros. Empece mi camino espiritual aprendiendo astrologia vedica, siguiendo con estudios en astrologia psicologica, eniologia y numerologia pitagorica. Ahora he decidido ayudar a quienes necesitan guia en este transito, por eso decidi abrir este espacio, para que cada uno de los que pase por aquí, pueda reencontrarse con esa luz que vive en su interior.
+              Mi nombre es Alexia Fernández soy <b>astróloga,</b> <b>terapeuta holística</b> y <b>canalizadora</b>. Estoy aquí para ayudarte y acompañarte en tu camino por esta tierra.
+            <br/><br/>
+            Los sucesos que viví a lo largo de mi vida me permitieron expandir mi conciencia y darme cuenta que somos más que materia, más que un cuerpo físico. Somos un ser completo en toda la dimensión. Somos parte de un infinito, el cual vive en el interior de cada uno de nosotros. Empecé mi camino espiritual aprendiendo astrología védica, siguiendo con estudios en astrología psicológica, eniología y numerología pitagórica. Ahora he decidido ayudar a quienes necesitan guía en este tránsito. Por eso decidí abrir este espacio, para que cada uno de los que pase por aquí pueda reencontrarse con esa luz que vive en su interior. 
+
               </p>
             </div>
           </div>

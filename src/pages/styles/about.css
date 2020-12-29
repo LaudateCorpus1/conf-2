@@ -57,7 +57,7 @@
 }
 @media only screen and (max-width: 960px) {
 	.about-img {
-		height: auto;
+		height: 100%;
 	}
 	.info-autor p {
 		line-height: 26px;
@@ -96,7 +96,7 @@
 	}
 	.about-img img {
 		width: 100%;
-		height: auto;
+		height: 100%;
 	}
 	.info-autor {
 		font-size: 14px;
