@@ -29,7 +29,7 @@ import { Link } from "react-router-dom";
            <p className="title-info">Destacados</p>
            <div className="link-footer">
             <Link className="footerLink" to="/conoceme"><p>Conóceme</p></Link> 
-            <Link className="footerLink" to="/servicios"><p>servicios</p></Link> 
+            <Link className="footerLink" to="/servicios"><p>Servicios</p></Link> 
              
            </div>
          </div>
