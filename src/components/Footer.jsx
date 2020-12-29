@@ -10,11 +10,11 @@ import { Link } from "react-router-dom";
       
        <div className="content_info">
          <div className="info">
-           <p className="title-info">Contactame</p>
+           <p className="title-info">Contáctame</p>
            <div className="">
             <p>Teléfono: +51 990319569</p>
             <p>correo: alexia@piscesntonic.com</p>
-            <p>direcion: Trujillo - Perú</p>
+            <p>direción: Trujillo - Perú</p>
            </div>
          </div>
          <div className="redes">
@@ -28,7 +28,7 @@ import { Link } from "react-router-dom";
          <div className="explorer">
            <p className="title-info">Destacados</p>
            <div className="link-footer">
-            <Link className="footerLink" to="/conoceme"><p>Conoceme</p></Link> 
+            <Link className="footerLink" to="/conoceme"><p>Conóceme</p></Link> 
             <Link className="footerLink" to="/servicios"><p>servicios</p></Link> 
              
            </div>

@@ -46,9 +46,9 @@ const ServiceThree= () => {
               </p>
               <div className="information-list">
               <ul className="lista">
-                <li>Energia ha y tha ( positiva y negativa) </li>
+                <li>Energía ha y tha ( positiva y negativa) </li>
                 <li>Autoestima</li>
-                <li>Caracter</li>
+                <li>Carácter</li>
                 <li>Salud</li>
                 <li>Memoria</li>
                 <li>Intuición</li>
