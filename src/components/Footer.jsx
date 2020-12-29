@@ -13,8 +13,8 @@ import { Link } from "react-router-dom";
            <p className="title-info">Contáctame</p>
            <div className="">
             <p>Teléfono: +51 990319569</p>
-            <p>correo: alexia@piscesntonic.com</p>
-            <p>direción: Trujillo - Perú</p>
+            <p>Email: alexia@piscesntonic.com</p>
+            <p>Direción: Trujillo - Perú</p>
            </div>
          </div>
          <div className="redes">
