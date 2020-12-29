@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
            </div>
          </div>
          <div className="redes">
-            <p className="title-info">Sigueme:</p>
+            <p className="title-info">Sígueme:</p>
             <div className="icon-redes">
               <a href="https://www.facebook.com/piscesntonic" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
               <a href="https://www.instagram.com/piscesntonic/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
