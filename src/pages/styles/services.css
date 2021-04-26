@@ -177,9 +177,6 @@
 	.services_detail {
 		margin: 0 15px;
 	}
-	.breve {
-		max-width: 280px;
-	}
 }
 @media (max-width: 1100px) {
 	.content-all-swiper {
@@ -203,9 +200,7 @@
 		font-size: 35px;
 		margin: 22px 0 32px 0;
 	}
-	.breve {
-		max-width: 249px;
-	}
+
 	.content-button {
 		padding: 0 0;
 		padding-top: 12px;
