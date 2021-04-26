@@ -26,7 +26,7 @@ function Products () {
                       <div className="content-imagen">
                         <img src={product.image} alt={product.name}/>
                       </div>
-                        <div className="detalle">
+                        <div className="detalle-product">
                           <p className="detail-title">{product.name}</p>
                           <p className="detail-price">{product.price}</p>
                           <div className="little-description">

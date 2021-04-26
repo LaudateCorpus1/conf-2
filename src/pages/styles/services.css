@@ -15,8 +15,29 @@
 
 .content-imagen {
 	max-width: 300px;
+	overflow: hidden;
+	border: 1px solid white;
 }
 .content-imagen img {
+	width: 100%;
+	border-radius: 5px;
+	object-fit: cover;
+	transform: scale(1);
+	animation: float 8s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.15);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+.detalle {
 	width: 100%;
 }
 
@@ -29,6 +50,30 @@
 	text-align: center;
 	align-items: center;
 	padding: 25px 14px;
+	margin: 10px;
+	border-radius: 7px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.content-swiper:hover {
+	background: #987acd;
+	color: white;
+	box-shadow: 4px 4px 5px #00000059;
+}
+.content-swiper:hover .detail-title {
+	color: white;
+}
+.content-swiper:hover .button-whatsapp {
+	background: white;
+	color: #987acd;
+}
+.content-swiper:hover .button-whatsapp a {
+	color: #987acd;
+	font-weight: 600;
+}
+.content-swiper:hover .detail-ver {
+	color: white;
+	border-bottom: 1px solid white;
 }
 
 /* styles swiper */
@@ -46,6 +91,10 @@
 	font-weight: 600;
 	padding: 10px 0px 9px;
 	color: #513b6f;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 70px;
 }
 .detail-price {
 	padding: 5px 0 11px;
@@ -56,7 +105,6 @@
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	max-width: 300px;
 	width: 100%;
 }
 
@@ -93,7 +141,7 @@
 .content-button {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 14px;
+	padding: 0;
 	padding-top: 12px;
 }
 
@@ -111,8 +159,16 @@
 	margin-bottom: 1px;
 }
 
+.services_detail {
+	display: flex;
+	flex-wrap: wrap;
+}
 .services_detail .swiper-container {
 	padding-bottom: 35px;
+}
+
+.content-all-swiper {
+	width: 25%;
 }
 
 /* end styles swiper */
@@ -125,9 +181,14 @@
 		max-width: 280px;
 	}
 }
+@media (max-width: 1100px) {
+	.content-all-swiper {
+		width: 33.333%;
+	}
+}
 @media (max-width: 960px) {
 	.content-all-swiper {
-		margin: 0 20px;
+		width: 33.333%;
 	}
 	.button-whatsapp-disable {
 		font-size: 16px;
@@ -136,7 +197,7 @@
 
 @media (max-width: 768px) {
 	.content-all-swiper {
-		margin: 0;
+		width: 50%;
 	}
 	.title-event p {
 		font-size: 35px;
@@ -155,10 +216,7 @@
 		font-size: 26px;
 		margin: 16px 0 23px 0;
 	}
-	.content-all-swiper {
-		padding: 0 10%;
-		margin: 0;
-	}
+
 	.detail-title {
 		font-size: 18px;
 		padding: 4px 0px 5px;
@@ -172,10 +230,13 @@
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
 	.content-all-swiper {
-		padding: 0;
-		margin: 0 15px;
+		width: 100%;
+	}
+	.content-imagen {
+		max-width: 100%;
+		width: 100%;
 	}
 }
 @media (max-width: 400px) {

@@ -2,14 +2,9 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import AppContext from "../context/AppContext";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper.scss';
 import './styles/services.css'
+
 import Products from "../pages/Products";
-// import Swiper core and required components
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function Services () {
   const {state} =useContext(AppContext)
@@ -26,48 +21,10 @@ function Services () {
           </div>
           
           <div className="services_detail">
-          <Swiper
-            spaceBetween={50}
-            slidesPerView={1}
-            navigation
-            loop={true}
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            breakpoints={{
-              1228: {
-                slidesPerView: 3,
-                spaceBetween: 40,
-              },
-              1024: {
-                slidesPerView: 3,
-                spaceBetween: 20,
-              },
-              960: {
-                slidesPerView: 3,
-                spaceBetween: 10,
-              },
-              768: {
-                slidesPerView: 2,
-                spaceBetween: 10,
-              },
-              600: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-              },
-              500: {
-                slidesPerView: 1,
-                spaceBetween: 0,
-              },
-              0: {
-                slidesPerView: 1,
-                spaceBetween: 0,
-              },
-            }}
-            /* onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)} */
-          >
+         
+              
           {services.map((service, i) => (
-            <SwiperSlide key={service+i}>
+
               <div className="content-all-swiper">
                       <div  className="content-swiper">
                       <div className="content-imagen">
@@ -104,14 +61,12 @@ function Services () {
                                 
                             
                             }
-
-
                         </div>
                     </div>
               </div>
-              </SwiperSlide>
+
                 ))}
-          </Swiper>
+
           </div>
           <div className="details-products">
             <Products/>

@@ -17,6 +17,11 @@
 	width: 100%;
 }
 
+.detalle-product {
+	padding: 0 20px;
+	width: 100%;
+}
+
 @media (max-width: 1228px) {
 	.details-products {
 		margin: 0 15px;

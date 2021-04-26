@@ -13,6 +13,9 @@ import ServiceOne from '../pages/products/ServiceOne'
 import ServiceTwo from '../pages/products/ServiceTwo'
 import ServiceThree from '../pages/products/ServiceThree'
 import ServiceFour from '../pages/products/ServiceFour'
+import ServiceFive from '../pages/products/ServiceFive'
+import ServiceSix from '../pages/products/ServiceSix'
+import ServiceSeven from '../pages/products/ServiceSeven'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import ScrollTop from '../components/ScrollTop';
 
@@ -32,6 +35,9 @@ function App ()  {
           <Route  exact path="/servicios/consulta-astral" component={ServiceTwo}  />
           <Route  exact path="/servicios/psicomatrix" component={ServiceThree}  />
           <Route  exact path="/productos/floral-healing-pharmacy" component={ServiceFour}  />
+          <Route  exact path="/servicios/terapia-regresiva-a-vidas-pasadas" component={ServiceFive}  />
+          <Route  exact path="/servicios/lectura-y-desbloqueo" component={ServiceSix}  />
+          <Route  exact path="/servicios/astrologia-draconica-karmica" component={ServiceSeven}  />
           <Route  exact path="/contacto"  component={Contact} />
           <Route component={NotFound} />
         </Switch>

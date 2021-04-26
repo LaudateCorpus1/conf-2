@@ -16,6 +16,24 @@
 	height: 190px;
 	font-family: 'Quicksand', sans-serif;
 }
+.header-service-5 {
+	background: url('../../../images/back-terapia.jpg') no-repeat center;
+	background-size: cover;
+	height: 190px;
+	font-family: 'Quicksand', sans-serif;
+}
+.header-service-6 {
+	background: url('../../../images/back-lectura.jpg') no-repeat center;
+	background-size: cover;
+	height: 190px;
+	font-family: 'Quicksand', sans-serif;
+}
+.header-service-7 {
+	background: url('../../../images/back-astro.jpg') no-repeat center;
+	background-size: cover;
+	height: 190px;
+	font-family: 'Quicksand', sans-serif;
+}
 .header-product-1 {
 	background: url('../../../images/back-prdo1.jpg') no-repeat center;
 	background-size: cover;
@@ -46,7 +64,7 @@
 }
 
 .content-title {
-	font-size: 68px;
+	font-size: 45px;
 }
 
 /* content-parrafo-styles */
