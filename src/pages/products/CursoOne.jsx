@@ -103,13 +103,13 @@ const CursoONe = () => {
 							<span className="title-curso">
 								<b>NIVEL II:</b>
 							</span>
-							-Jerarquía Universal
 						</p>
-						<div className="">
-							<ul>
-								<li></li>
+						<div className="information-list">
+							<ul className="lista">
+								<li>Jerarquía Universal</li>
 							</ul>
 						</div>
+						<br />
 						<p className="information">
 							<b>¿Qué es el ADN espiritual?</b>
 						</p>
@@ -123,6 +123,44 @@ const CursoONe = () => {
 								<li>Ejercicios para activar el ADN.</li>
 								<li>Lectura de R.A. a otras personas.</li>
 								<li>Patrones de Interferencia en los R.A.</li>
+							</ul>
+						</div>
+						<br />
+						<p className="information">
+							<b>¿Qué tipo de preguntas funcionan mejor en los R.A.?</b>
+						</p>
+						<div className="information-list">
+							<ul className="lista">
+								<li>Directrices antes de abrir los RA a otros seres.</li>
+								<li>
+									Práctica para realizar la lectura de R.A. a otros seres.
+								</li>
+								<li>
+									Lecturas de RA a animales o mascotas, viviendas, empresas,
+									etc.
+								</li>
+								<li>La Sanación en los RA.</li>
+								<li>Meditación de Sanación con los Maestros del R.A.</li>
+								<li>Puntos de Gracia del segundo Nivel de los RA.</li>
+								<li>Ética en el trabajo.</li>
+							</ul>
+						</div>
+						<br />
+						<p className="information">
+							<span className="title-curso">
+								<b>MAESTRÍA:</b>
+							</span>
+						</p>
+						<div className="information-list">
+							<ul className="lista">
+								<li>
+									Lectura de Registros Akáshicos de la Tierra y el Cosmos.
+								</li>
+								<li>Activación de la Glándula Pineal.</li>
+								<li>Símbolos Sagrados de los Registros Akáshicos.</li>
+								<li>Procedimiento para realizar una Iniciación.</li>
+								<li>Activar el tubo o Canal de Luz en los Iniciados.</li>
+								<li>Sintonización e Iniciación de la Maestría.</li>
 							</ul>
 						</div>
 						<div className="content-payment">
